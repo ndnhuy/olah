@@ -6,6 +6,8 @@ import TablesRoutes from './Tables'
 import ChartsRoutes from './Charts'
 import DashboardRoute from '@src/features/dashboard/DashboardRoute'
 import EmailRoute from '@src/features/email/EmailRoute'
+import CalendarRoute from '@src/features/calendar/CalendarRoute'
+import ChatRoute from '@src/features/chat/ChatRoute'
 import UiElementRoutes from './UiElements'
 import ExtensionsRoutes from './Extensions'
 import PageLayoutsRoutes from './PageLayouts'
@@ -20,6 +22,8 @@ const DefaultRoute = '/dashboard/ecommerce'
 const Routes = [
   ...DashboardRoute,
   ...EmailRoute,
+  ...CalendarRoute,
+  ...ChatRoute,
   ...AppRoutes,
   ...PagesRoutes,
   ...UiElementRoutes,

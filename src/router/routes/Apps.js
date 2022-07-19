@@ -4,12 +4,6 @@ import { Redirect } from 'react-router-dom'
 
 const AppRoutes = [
   {
-    path: '/apps/chat',
-    appLayout: true,
-    className: 'chat-application',
-    component: lazy(() => import('../../views/apps/chat'))
-  },
-  {
     path: '/apps/todo',
     exact: true,
     appLayout: true,
@@ -34,10 +28,6 @@ const AppRoutes = [
     meta: {
       navLink: '/apps/todo'
     }
-  },
-  {
-    path: '/apps/calendar',
-    component: lazy(() => import('../../views/apps/calendar'))
   },
   {
     path: '/apps/invoice/list',
