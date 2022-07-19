@@ -8,6 +8,7 @@ import DashboardRoute from '@src/features/dashboard/DashboardRoute'
 import EmailRoute from '@src/features/email/EmailRoute'
 import CalendarRoute from '@src/features/calendar/CalendarRoute'
 import ChatRoute from '@src/features/chat/ChatRoute'
+import EcommerceRoute from '@src/features/ecommerce/EcommerceRoute'
 import UiElementRoutes from './UiElements'
 import ExtensionsRoutes from './Extensions'
 import PageLayoutsRoutes from './PageLayouts'
@@ -24,6 +25,7 @@ const Routes = [
   ...EmailRoute,
   ...CalendarRoute,
   ...ChatRoute,
+  ...EcommerceRoute,
   ...AppRoutes,
   ...PagesRoutes,
   ...UiElementRoutes,
