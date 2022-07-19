@@ -4,7 +4,8 @@ import FormRoutes from './Forms'
 import PagesRoutes from './Pages'
 import TablesRoutes from './Tables'
 import ChartsRoutes from './Charts'
-import DashboardRoutes from './Dashboards'
+import DashboardRoute from '@src/features/dashboard/DashboardRoute'
+import EmailRoute from '@src/features/email/EmailRoute'
 import UiElementRoutes from './UiElements'
 import ExtensionsRoutes from './Extensions'
 import PageLayoutsRoutes from './PageLayouts'
@@ -17,7 +18,8 @@ const DefaultRoute = '/dashboard/ecommerce'
 
 // ** Merge Routes
 const Routes = [
-  ...DashboardRoutes,
+  ...DashboardRoute,
+  ...EmailRoute,
   ...AppRoutes,
   ...PagesRoutes,
   ...UiElementRoutes,
