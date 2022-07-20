@@ -9,7 +9,7 @@ import { Alert, Row, Col, Label, Form, Input, Button, Modal, ModalHeader, ModalB
 
 // ** Store & Actions
 import { useDispatch, useSelector } from 'react-redux'
-import { getData, addPermission, deletePermission, selectPermission, updatePermission } from '../store'
+import { getData, addPermission, deletePermission, selectPermission, updatePermission } from '../../views/apps/roles-permissions/store'
 
 // ** Third party Components
 import classnames from 'classnames'

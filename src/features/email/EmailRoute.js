@@ -6,14 +6,14 @@ const EmailRoute = [
     exact: true,
     appLayout: true,
     className: 'email-application',
-    component: lazy(() => import('../../features/email'))
+    component: lazy(() => import('@src/features/email'))
   },
   {
     path: '/apps/email/:folder',
     exact: true,
     appLayout: true,
     className: 'email-application',
-    component: lazy(() => import('../../features/email')),
+    component: lazy(() => import('@src/features/email')),
     meta: {
       navLink: '/apps/email'
     }
@@ -23,14 +23,14 @@ const EmailRoute = [
     exact: true,
     appLayout: true,
     className: 'email-application',
-    component: lazy(() => import('../../features/email')),
+    component: lazy(() => import('@src/features/email')),
     meta: {
       navLink: '/apps/email'
     }
   },
   {
     path: '/apps/email/:filter',
-    component: lazy(() => import('../../features/email')),
+    component: lazy(() => import('@src/features/email')),
     meta: {
       navLink: '/apps/email'
     }

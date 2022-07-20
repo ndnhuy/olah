@@ -20,7 +20,7 @@ import {
 } from 'reactstrap'
 
 // ** Store & Actions
-import { getData } from '@src/views/apps/invoice/store'
+import { getData } from '@src/features/invoice/store'
 import { useDispatch, useSelector } from 'react-redux'
 
 // ** Styles

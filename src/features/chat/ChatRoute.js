@@ -5,7 +5,7 @@ const ChatRoute = [
     path: '/apps/chat',
     appLayout: true,
     className: 'chat-application',
-    component: lazy(() => import('../../features/chat'))
+    component: lazy(() => import('@src/features/chat'))
   }
 ]
 

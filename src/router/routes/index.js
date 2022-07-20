@@ -9,6 +9,8 @@ import EmailRoute from '@src/features/email/EmailRoute'
 import CalendarRoute from '@src/features/calendar/CalendarRoute'
 import ChatRoute from '@src/features/chat/ChatRoute'
 import EcommerceRoute from '@src/features/ecommerce/EcommerceRoute'
+import InvoiceRoute from '@src/features/invoice/InvoiceRoute'
+import PermissionRoute from '@src/features/permissions/PermissionRoute'
 import UiElementRoutes from './UiElements'
 import ExtensionsRoutes from './Extensions'
 import PageLayoutsRoutes from './PageLayouts'
@@ -26,6 +28,8 @@ const Routes = [
   ...CalendarRoute,
   ...ChatRoute,
   ...EcommerceRoute,
+  ...InvoiceRoute,
+  ...PermissionRoute,
   ...AppRoutes,
   ...PagesRoutes,
   ...UiElementRoutes,
