@@ -6,7 +6,7 @@ import Avatar from '@components/avatar'
 
 // ** Store & Actions
 import { store } from '@store/store'
-import { getUser } from '@src/views/apps/user/store'
+import { getUser } from '@src/features/user/store'
 
 // ** Icons Imports
 import { Slack, User, Settings, Database, Edit2, Eye } from 'react-feather'

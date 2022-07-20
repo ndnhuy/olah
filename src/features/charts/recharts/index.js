@@ -8,12 +8,12 @@ import { Row, Col } from 'reactstrap'
 import Breadcrumbs from '@components/breadcrumbs'
 
 // ** Demo Charts
-import PieChart from './PieChart'
-import BarChart from './BarChart'
-import LineChart from './LineChart'
-import AreaChart from './AreaChart'
-import RadarChart from './RadarChart'
-import ScatterChart from './ScatterChart'
+import PieChart from '@src/views/charts/recharts/PieChart'
+import BarChart from '@src/views/charts/recharts/BarChart'
+import LineChart from '@src/views/charts/recharts/LineChart'
+import AreaChart from '@src/views/charts/recharts/AreaChart'
+import RadarChart from '@src/views/charts/recharts/RadarChart'
+import ScatterChart from '@src/views/charts/recharts/ScatterChart'
 
 // ** Context
 import { ThemeColors } from '@src/utility/context/ThemeColors'

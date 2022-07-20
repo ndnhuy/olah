@@ -6,7 +6,7 @@ import { columns } from './columns'
 
 // ** Store & Actions
 import { useDispatch, useSelector } from 'react-redux'
-import { getAllData, getData } from '@src/views/apps/user/store'
+import { getAllData, getData } from '@src/features/user/store'
 
 // ** Third Party Components
 import ReactPaginate from 'react-paginate'
